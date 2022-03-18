@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #242B33;;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    margin: 30px 0px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px;
+    opacity: 0.75;
+    transition: .2s;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+.intro {
+    padding-top: 100px;
+    background: url(../HouseVOP/img/Rectangle.png);
+    height: 740px;
+}
+
+.intro_title {
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    width: 550px;
+}
+
+.intro_title h1 {
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    color: #D4C17F;
+}
+
+.mouse{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 505px;
+    left: 47.5%;
+}
+
+.intro_footer {
+    width: 500px;
+    padding-top: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.intro_footer p {
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 7px;
+}
+
+.intro_gps {
+    display: flex;
+}
+
+.intro_phone {
+    display: flex;
+}
+
+.content_block {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.content_img {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+}
+
+.content_img img {
+    padding-bottom: 25px;
+}
+
+.img-text {
+    font-size: 17px;
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+.numbers_name {
+    font-family: 'Playfair Display';
+    color: #D4C17F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+
+.numbers_img {
+    padding-top: 30px;
+    width: 1090px;
+    height: 720px;
+}
+
+.numbers_img img {
+    width: 535px;
+    height: 320px;
+}
+
+.line_img1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.line_img2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers_text {
+    font-family: 'Raleway';
+    font-size: 24px;
+    color: #fff;
+    top: 500px;
+    left: 50px;
+
+    position: absolute;
+}
+
+.text1 {
+    top: 197%;
+    left: 18%;
+}
+
+.text2 {
+    top: 197%;
+    left: 53.5%;
+}
+
+.text3 {
+    top: 240%;
+    left: 18%;
+}
+
+.text4 {
+    top: 240%;
+    left: 53.5%;
+}
+
+.footer {
+    width: 100%;
+    height: 270px;
+    background: #2D343C;
+}
+
+.extra {
+    width: 120px;
+    height: 140px;
+}
+
+.extra a {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-family: 'Raleway';
+    padding-bottom: 5px;
+
+    opacity: 0.75;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.extra a:hover {
+    opacity: 1;
+}
+
+
+.extra2 {
+    width: 120px;
+    height: 140px;
+}
+
+.extra2 a {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-family: 'Raleway';
+    padding-bottom: 5px;
+
+    opacity: 0.75;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.extra2 a:hover {
+    opacity: 1;
+}
+
+.footer_text {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: space-between;
+    padding-top: 50px;
+}
