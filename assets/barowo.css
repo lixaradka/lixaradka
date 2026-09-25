@@ -2400,8 +2400,14 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
   .packages-grid::-webkit-scrollbar,
   .proof-grid::-webkit-scrollbar { display: none; }
 
+  /* 78% width lets the next card peek in, so the row reads as swipeable */
   .packages-grid > .pkg,
-  .proof-grid > .proof-card { flex: 0 0 86%; scroll-snap-align: start; }
+  .proof-grid > .proof-card { flex: 0 0 78%; scroll-snap-align: start; }
+
+  /* The scroll-reveal observer only sees vertical visibility, so cards
+     parked off-screen to the right would stay transparent until swiped */
+  .packages-grid > .reveal,
+  .proof-grid > .reveal { opacity: 1; transform: none; }
 
   .pkg { padding: 24px; }
   .pkg-name { margin-top: 20px; }
