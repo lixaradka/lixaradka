@@ -1,0 +1,117 @@
+{
+  "slug": "mobilny-bar-na-event-firmowy",
+  "published": true,
+  "priority": 3,
+  "updated_at": "2026-04-26",
+  "title_plain": "Mobilny bar na event firmowy",
+  "title_html": "MOBILNY BAR<br><span class=\"red\">NA EVENT FIRMOWY</span>",
+  "description": "Mobilny bar na event firmowy w Trójmieście. Profesjonalna obsługa barmańska, koktajle, estetyczny setup i szybka organizacja dla firm.",
+  "meta_title": "Mobilny Bar na Event Firmowy Gdańsk i Trójmiasto — BAROWO",
+  "meta_description": "Pełna obsługa mobilnego baru na event firmowy w Trójmieście. Barmani, bar, szkło, koktajle, przygotowanie stanowiska i obsługa gości.",
+  "eyebrow": "Firmy · Eventy",
+  "intro": "Mobilny bar na event firmowy ma działać sprawnie i bez organizacyjnego chaosu. BAROWO dowozi gotowy bar, barmanów, szkło, koktajle i proces, który nie przerzuca logistyki na zespół klienta.",
+  "direct_answer": "Na wydarzeniach firmowych mobilny bar działa najlepiej wtedy, gdy jest pełną usługą, a nie samą atrakcją. Goście dostają estetyczny, szybki punkt serwisu, a organizator ma jeden uporządkowany temat mniej.",
+  "service_type": "Mobilny bar na event firmowy",
+  "offer_note": "BAROWO wycenia pełną obsługę baru eventowego, dlatego cena zależy od liczby gości, zakresu menu i logistyki wydarzenia.",
+  "areas": ["Gdynia", "Gdańsk", "Sopot", "Trójmiasto", "Pomorskie"],
+  "image": "/assets/articles/article2-bar-top.jpg",
+  "image_alt": "Elegancki mobilny bar na wydarzeniu firmowym",
+  "highlights": [
+    "Bar, szkło, barmani i setup w jednym zakresie",
+    "Obsługa integracji, premier, konferencji i gal",
+    "Szybki serwis przy większej liczbie gości",
+    "Jasne ustalenia bez organizacyjnego chaosu"
+  ],
+  "sections": [
+    {
+      "title": "Bar na event firmowy bez organizacyjnego chaosu",
+      "body": "Przy firmowym evencie najczęściej problemem nie jest sam alkohol, tylko koordynacja wszystkiego wokół niego. BAROWO działa jako gotowy punkt serwisu: przyjeżdża z barem, szkłem, sprzętem i zespołem, który wie, jak pracować w tempie wydarzenia."
+    },
+    {
+      "title": "Co dostaje organizator?",
+      "body": "Organizator dostaje jedną usługę zamiast kilku luźnych elementów. To oznacza mniej pytań na ostatniej prostej, czytelny zakres odpowiedzialności i prostsze planowanie budżetu.",
+      "bullets": [
+        "gotowy mobilny bar i przygotowanie stanowiska",
+        "zespół barmanów dopasowany do skali wydarzenia",
+        "szkło, dodatki, lód i zaplecze baru",
+        "menu alkoholowe i bezalkoholowe pod charakter eventu"
+      ]
+    },
+    {
+      "title": "Dla jakich eventów sprawdza się BAROWO?",
+      "body": "Najczęściej obsługujemy otwarcia lokali, imprezy firmowe, integracje, konferencje i eventy promocyjne. W każdym z tych formatów liczy się to samo: przewidywalny serwis, estetyka i szybka obsługa gości.",
+      "bullets": [
+        "otwarcie lokalu albo showroomu",
+        "impreza firmowa i wieczór integracyjny",
+        "konferencja albo networking po części oficjalnej",
+        "event promocyjny z udziałem klientów lub partnerów"
+      ]
+    },
+    {
+      "title": "Jak wygląda obsługa eventu?",
+      "body": "Na początku ustalamy format wydarzenia, liczbę gości, godziny pracy i charakter menu. Potem przygotowujemy zakres serwisu i logistykę miejsca. Jeśli najpierw chcesz zrozumieć budżet, sprawdź [cennik mobilnego baru](/cennik/)."
+    },
+    {
+      "title": "Dlaczego pełny bar działa lepiej niż sama atrakcja?",
+      "body": "Krótki pokaz barmański może zrobić efekt na kilka minut, ale nie rozwiązuje potrzeby realnej obsługi gości przez cały event. Pełny mobilny bar porządkuje ruch, daje wygodny punkt spotkań i wspiera odbiór marki w praktyce, a nie tylko na zdjęciach."
+    },
+    {
+      "type": "cards",
+      "label": "Upsell BAROWO",
+      "title": "Słodka strefa na event firmowy",
+      "cards": [
+        {
+          "title": "Fontanna czekoladowa jako dodatek albo osobna atrakcja",
+          "text": "Fontanna czekoladowa może być dodatkiem do mobilnego baru albo osobną atrakcją na event firmowy, otwarcie lokalu, integrację lub spotkanie z klientami.",
+          "button_text": "Zobacz fontannę czekoladową",
+          "button_href": "/oferta/fontanna-czekoladowa/"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy obsługujecie eventy firmowe w Gdańsku i całym Trójmieście?",
+      "answer": "Tak. To nasz podstawowy obszar pracy. Obsługujemy również dalsze lokalizacje w regionie po ustaleniu logistyki."
+    },
+    {
+      "question": "Czy mobilny bar sprawdzi się na konferencji albo premierze produktu?",
+      "answer": "Tak, jeśli wydarzenie potrzebuje estetycznego punktu obsługi gości i płynnego serwisu po części oficjalnej. To częsty scenariusz dla BAROWO."
+    },
+    {
+      "question": "Czy można przygotować menu bezalkoholowe dla firmy?",
+      "answer": "Tak. Mocktaile i lżejsze opcje bez alkoholu są często ważną częścią firmowego eventu, zwłaszcza przy dłuższych wydarzeniach albo obecności kierowców."
+    },
+    {
+      "question": "Czy taki bar to bardziej atrakcja czy realna obsługa wydarzenia?",
+      "answer": "W BAROWO mówimy o realnej obsłudze wydarzenia. Bar ma działać przez wiele godzin i wspierać organizację eventu, a nie tylko zrobić krótki efekt wow."
+    },
+    {
+      "question": "Czy mogę dostać szybką wycenę terminu?",
+      "answer": "Tak. Wystarczy data, lokalizacja, typ eventu i liczba gości. To pozwala szybko ocenić dostępność i zakres obsługi."
+    }
+  ],
+  "related_links": [
+    {"href": "/cennik/", "label": "Cennik mobilnego baru"},
+    {"href": "/oferta/mobilny-bar-trojmiasto/", "label": "Mobilny bar Trójmiasto"},
+    {"href": "/oferta/fontanna-czekoladowa/", "label": "Fontanna czekoladowa"},
+    {"href": "/#contact", "label": "Formularz kontaktowy"}
+  ],
+  "related_articles": ["mobilny-bar-na-event-firmowy", "ile-kosztuje-mobilny-bar-trojmiasto"],
+  "primary_cta_text": "Zapytaj o dostępność terminu",
+  "secondary_cta_text": "Zobacz cennik",
+  "secondary_cta_href": "/cennik/",
+  "mid_cta_label": "Event firmowy",
+  "mid_cta_title_html": "SPRAWDŹ,<br><span class=\"red\">DOSTĘPNOŚĆ TERMINU</span>",
+  "mid_cta_text": "Wyślij datę, miasto i liczbę gości. Wrócimy z informacją, jaki zakres baru sprawdzi się najlepiej przy Twoim formacie wydarzenia.",
+  "mid_cta_button_text": "Sprawdź dostępność terminu",
+  "bottom_cta_label": "Organizator",
+  "bottom_cta_title_html": "ZAMÓW<br><span class=\"red\">BAR NA EVENT FIRMOWY</span>",
+  "bottom_cta_text": "Jeśli chcesz gotowy, estetyczny serwis bez improwizacji przy barze, napisz do BAROWO. Dobierzemy zakres, który pasuje do eventu, a nie tylko dobrze brzmi w ofercie.",
+  "bottom_cta_button_text": "Zapytaj o dostępność terminu",
+  "sidebar_title_html": "ZAPYTAJ O<br><span class=\"red\">TERMIN EVENTU</span>",
+  "sidebar_text": "Podaj datę, lokalizację i liczbę gości. Wrócimy z konkretnym zakresem baru i propozycją obsługi.",
+  "sidebar_button_text": "Sprawdź dostępność terminu",
+  "card_title_html": "Mobilny bar <span class=\"red\">na event firmowy</span>",
+  "card_excerpt": "Pełna obsługa baru na integrację, konferencję, premierę lub imprezę firmową w Trójmieście."
+}

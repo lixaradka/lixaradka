@@ -1,0 +1,15 @@
+{
+  "name": "barowo-crm-gas",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "login": "clasp login",
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "open": "clasp open",
+    "deploy": "clasp deploy"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.3.0"
+  }
+}

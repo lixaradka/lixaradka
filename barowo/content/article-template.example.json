@@ -1,0 +1,27 @@
+{
+  "slug": "nowy-artykul",
+  "published": false,
+  "published_at": "2026-03-31",
+  "title_plain": "Nowy artykuł BAROWO",
+  "title_html": "NOWY ARTYKUŁ<br><span class=\"red\">BAROWO</span>",
+  "description": "Krótki opis artykułu do Google i podglądu w social mediach.",
+  "intro": "Krótki lead pod nagłówkiem. Dwie lub trzy linie, które szybko tłumaczą, o czym jest tekst.",
+  "read_time": "ok. 5 minut",
+  "category": "Organizacja imprez",
+  "tag": "Mobilny bar",
+  "cover_image": "/assets/articles/uploads/cover.jpg",
+  "cover_alt": "Opis zdjęcia głównego artykułu",
+  "summary": [
+    "Pierwszy krótki wniosek na początku artykułu.",
+    "Drugi krótki wniosek na początku artykułu.",
+    "Trzeci krótki wniosek na początku artykułu."
+  ],
+  "body": "## Pierwszy nagłówek\n\nTutaj wpisujesz treść artykułu w markdown.\n\n- możesz używać list\n- cytatów\n- i kolejnych sekcji\n\n> To przykładowy cytat.\n\n## Drugi nagłówek\n\nJeśli potrzebujesz, możesz też wkleić gotowy HTML.",
+  "cta_title_html": "SPRAWDŹ,<br><span class=\"red\">CZY MAMY TERMIN</span>",
+  "cta_text": "Krótki tekst CTA pod artykułem.",
+  "card_image": "/assets/articles/uploads/card.jpg",
+  "card_alt": "Opis zdjęcia użytego na karcie artykułu",
+  "card_title_html": "Nowy artykuł <span class=\"red\">BAROWO</span>",
+  "card_excerpt": "Krótki opis karty na liście Aktualności.",
+  "footer_copy": "© 2026 BAROWO — Mobilny Bar Trójmiasto. Artykuł z sekcji Aktualności BAROWO."
+}

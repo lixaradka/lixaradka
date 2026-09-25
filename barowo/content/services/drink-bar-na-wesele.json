@@ -1,0 +1,54 @@
+{
+  "slug": "drink-bar-na-wesele",
+  "published": true,
+  "priority": 2,
+  "updated_at": "2026-04-25",
+  "title_plain": "Drink bar na wesele",
+  "title_html": "DRINK BAR<br><span class=\"red\">NA WESELE</span>",
+  "description": "Drink bar na wesele: koktajle, barmani i efektowny serwis dla gości weselnych w Trójmieście i województwie pomorskim.",
+  "eyebrow": "Koktajle · Wesele",
+  "intro": "Drink bar na wesele to atrakcja, która działa przez cały wieczór: goście wracają po kolejne koktajle, robią zdjęcia i mają naturalne miejsce spotkań poza parkietem.",
+  "direct_answer": "Dobry drink bar na wesele nie polega na długiej liście przypadkowych drinków. Najlepiej działa krótsze, dopracowane menu, szybki serwis, opcje bezalkoholowe i barmani, którzy potrafią utrzymać tempo przy dużej liczbie gości.",
+  "service_type": "Drink bar na wesele",
+  "areas": ["Gdynia", "Gdańsk", "Sopot", "Trójmiasto", "Pomorskie"],
+  "image": "/assets/articles/uploads/eadbb83a3d1eb306b9b52a97ffba1394.jpg",
+  "image_alt": "Karta drinków weselnych BAROWO",
+  "highlights": [
+    "Menu koktajli dopasowane do gości",
+    "Opcje alkoholowe i bezalkoholowe",
+    "Estetyczny serwis, który dobrze wygląda na zdjęciach",
+    "Sprawna obsługa bez długich kolejek"
+  ],
+  "sections": [
+    {
+      "title": "Jakie drinki sprawdzają się na weselu?",
+      "body": "Najlepiej sprawdzają się koktajle, które są szybkie w serwisie, czytelne dla gości i różnorodne smakowo. Menu powinno mieć kilka klasyków, coś świeżego, coś słodszego i dobre mocktaile."
+    },
+    {
+      "title": "Dlaczego krótsze menu bywa lepsze?",
+      "body": "Zbyt długie menu spowalnia obsługę i utrudnia wybór. Dobrze zaprojektowany drink bar ma mniej pozycji, ale każda jest dopracowana i realnie pasuje do wesela.",
+      "bullets": ["szybsze wydawanie drinków", "mniej kolejek", "lepsza kontrola produktów", "łatwiejszy wybór dla gości"]
+    },
+    {
+      "title": "Czy drink bar zastępuje alkohol na stołach?",
+      "body": "To zależy od stylu wesela. Część par traktuje drink bar jako główną atrakcję alkoholową, część jako premium dodatek do klasycznej organizacji. Pomagamy dobrać zakres tak, żeby budżet i efekt miały sens."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy robicie drinki bezalkoholowe?",
+      "answer": "Tak. Mocktaile są ważne, bo korzystają z nich kierowcy, osoby niepijące i goście, którzy chcą czegoś lekkiego."
+    },
+    {
+      "question": "Ile drinków trzeba zaplanować na wesele?",
+      "answer": "To zależy od liczby gości, czasu trwania i pozostałego alkoholu. Przy zapytaniu pomagamy oszacować realne zużycie."
+    },
+    {
+      "question": "Czy menu można dopasować kolorystycznie?",
+      "answer": "Tak, możemy dobrać koktajle pod klimat wesela, sezon, kolorystykę i preferencje smakowe."
+    }
+  ],
+  "related_articles": ["najlepsze-drinki-na-wesele", "mobilny-bar-czy-alkohol-samemu"],
+  "card_title_html": "Drink bar <span class=\"red\">na wesele</span>",
+  "card_excerpt": "Koktajle, mocktaile i sprawny serwis baru jako atrakcja weselna dla gości."
+}
