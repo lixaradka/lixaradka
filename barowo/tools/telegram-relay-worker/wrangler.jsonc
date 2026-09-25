@@ -1,0 +1,9 @@
+{
+  "name": "barowo-telegram-relay",
+  "main": "src/index.js",
+  "compatibility_date": "2026-04-05",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  }
+}

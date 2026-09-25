@@ -1,0 +1,39 @@
+# BAROWO
+
+BAROWO is a mobile bar and bartender service based in Gdynia, serving Gdynia, Gdańsk, Sopot, Trójmiasto and Pomorskie.
+
+Primary website: https://barowo.com/
+
+## What BAROWO does
+
+- Mobile bar for weddings
+- Drink bar for weddings and birthdays
+- Mobile bar for corporate events
+- Bartender service with bar setup, glassware, cocktail menu and service team
+
+## Key pages
+
+- Homepage: https://barowo.com/
+- Offer hub: https://barowo.com/oferta/
+- Pricing explainer: https://barowo.com/cennik/
+- Realizations and use cases: https://barowo.com/realizacje/
+- Blog / guides: https://barowo.com/aktualnosci/
+
+## Service pages
+
+- https://barowo.com/oferta/mobilny-bar-na-wesele/
+- https://barowo.com/oferta/drink-bar-na-wesele/
+- https://barowo.com/oferta/mobilny-bar-na-event-firmowy/
+- https://barowo.com/oferta/drink-bar-na-urodziny-gdansk/
+- https://barowo.com/oferta/mobilny-bar-trojmiasto/
+- https://barowo.com/oferta/mobilny-bar-gdynia/
+- https://barowo.com/oferta/mobilny-bar-gdansk/
+- https://barowo.com/oferta/mobilny-bar-sopot/
+
+## Useful summary
+
+BAROWO provides complete mobile bar service for private and corporate events in Trójmiasto and Pomorskie. The service can include a mobile bar, bartenders, glassware, cocktail ingredients, menu planning and event service. Pricing depends on date, location, number of guests, event type, package and menu scope.
+
+## Contact
+
+Use the contact form at https://barowo.com/#contact or the phone/email listed on the website.

@@ -1,0 +1,54 @@
+{
+  "slug": "drink-bar-na-urodziny-gdansk",
+  "published": true,
+  "priority": 4,
+  "updated_at": "2026-04-25",
+  "title_plain": "Drink bar na urodziny w Gdańsku",
+  "title_html": "DRINK BAR<br><span class=\"red\">NA URODZINY W GDAŃSKU</span>",
+  "description": "Drink bar na urodziny w Gdańsku i okolicach. Mobilny bar, koktajle, barmani i efektowna obsługa 18-tek, urodzin i prywatnych imprez.",
+  "eyebrow": "Urodziny · Gdańsk",
+  "intro": "Drink bar na urodziny robi efekt wtedy, gdy jest czymś więcej niż miejscem nalewania alkoholu. To atrakcja, punkt spotkań i element, który podnosi klimat całej imprezy.",
+  "direct_answer": "Na urodziny w Gdańsku najlepiej sprawdza się drink bar z dopasowanym menu, szybkim serwisem i kolorowymi koktajlami, które dobrze wyglądają na żywo i na zdjęciach.",
+  "service_type": "Drink bar na urodziny",
+  "areas": ["Gdańsk", "Gdynia", "Sopot", "Trójmiasto"],
+  "image": "/assets/articles/article3-cocktails.jpg",
+  "image_alt": "Koktajle BAROWO na imprezie urodzinowej",
+  "highlights": [
+    "18-stki, urodziny i prywatne imprezy",
+    "Kolorowe koktajle i mocktaile",
+    "Setup dopasowany do miejsca",
+    "Dojazd i obsługa w Gdańsku"
+  ],
+  "sections": [
+    {
+      "title": "Kiedy drink bar robi największy efekt?",
+      "body": "Największy efekt widać na imprezach, gdzie goście chcą czegoś więcej niż klasycznego stołu z alkoholem. Bar daje ruch, rozmowy, zdjęcia i poczucie, że wydarzenie jest naprawdę dopracowane."
+    },
+    {
+      "title": "Jakie urodziny obsługujemy?",
+      "body": "Obsługujemy 18-stki, okrągłe urodziny, imprezy domowe, plenerowe i wynajęte sale. Zakres dobieramy do liczby gości, miejsca i charakteru wydarzenia.",
+      "bullets": ["kameralne imprezy prywatne", "większe urodziny na sali", "garden party", "wieczory tematyczne"]
+    },
+    {
+      "title": "Jak zaplanować bar na urodziny?",
+      "body": "Wystarczy podać datę, lokalizację, liczbę gości i klimat imprezy. Na tej podstawie doradzimy pakiet, menu i sensowną liczbę barmanów."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy drink bar nadaje się na 18-stkę?",
+      "answer": "Tak, ale zakres i menu ustalamy odpowiedzialnie oraz zgodnie z charakterem wydarzenia i oczekiwaniami organizatora."
+    },
+    {
+      "question": "Czy dojeżdżacie w całym Gdańsku?",
+      "answer": "Tak, obsługujemy Gdańsk i okolice. Przy zapytaniu podaj dzielnicę lub adres sali, a uwzględnimy logistykę."
+    },
+    {
+      "question": "Czy można zrobić menu tematyczne?",
+      "answer": "Tak. Możemy dopasować kolory, smaki i nazwy koktajli do motywu imprezy."
+    }
+  ],
+  "related_articles": ["drink-bar-na-urodziny-gdansk", "garden-party-z-barem-mobilnym"],
+  "card_title_html": "Drink bar <span class=\"red\">na urodziny w Gdańsku</span>",
+  "card_excerpt": "Mobilny bar i koktajle na 18-stkę, urodziny albo prywatną imprezę w Gdańsku."
+}

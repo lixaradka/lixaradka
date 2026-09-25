@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="BAROWO">
+  <meta property="og:title" content="{{OG_TITLE}}">
+  <meta property="og:description" content="{{OG_DESCRIPTION}}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{OG_URL}}">
+  <meta property="og:image" content="{{OG_IMAGE}}">
+  <meta property="og:image:alt" content="{{OG_TITLE}}">
+  <meta property="og:locale" content="pl_PL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{OG_TITLE}}">
+  <meta name="twitter:description" content="{{OG_DESCRIPTION}}">
+  <meta name="twitter:image" content="{{OG_IMAGE}}">
+  <meta name="theme-color" content="#06061a">
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+  <link rel="icon" href="/favicon.ico?v=20260331" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260331">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=20260331">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260331">
+  <link rel="manifest" href="/site.webmanifest?v=20260331">
+<script src="/assets/consent-init.js?v=20260331"></script>
+  <script src="/assets/callback-popup.js?v=20260430a" defer></script>
+  <script>
+    if (window.location.protocol === 'file:') {
+      document.write('<script src="/assets/local-preview.js"><' + '/script>');
+    }
+  </script>
+  <script type="application/ld+json">
+{{JSONLD}}
+  </script>
+  <link rel="preload" href="/assets/fonts/fraunces-normal-400-500-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/barowo.css?v=20260925">
+</head>
+
+<body>
+  <nav>
+    <a href="/" class="nav-logo" aria-label="BAROWO - Strona główna">
+      <img src="/assets/logo-main.png?v=20260331" alt="BAROWO">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/#how">Jak to działa</a></li>
+      <li><a href="/#packages">Pakiety</a></li>
+      <li><a href="/oferta/">Usługi</a></li>
+      <li><a href="/cennik/">Cennik</a></li>
+      <li><a href="/planer-baru-weselnego/">Planer weselny</a></li>
+      <li><a href="/realizacje/">Realizacje</a></li>
+      <li class="nav-news-item"><a href="/aktualnosci/" class="is-active">Aktualności</a></li>
+      <li><a href="/#contact" class="btn btn-primary nav-cta">Sprawdź dostępność terminu</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" type="button" aria-label="Otwórz menu" aria-expanded="false" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main class="page-shell">
+    <section class="section">
+      <div class="breadcrumbs"><a href="/">Strona główna</a> / <a href="/aktualnosci/">Aktualności</a>
+        / Artykuł</div>
+      <div class="label">Aktualności BAROWO</div>
+      <h1>{{H1_HTML}}</h1>
+      <p class="hero-intro">{{INTRO}}</p>
+      <div class="article-meta"><time datetime="{{PUBLISHED_AT}}">{{PUBLISHED_AT}}</time>
+        {{ARTICLE_META}}</div>
+
+      <div class="article-cover">{{ARTICLE_COVER}}</div>
+
+      <div class="article-layout">
+        <article class="article-body">
+{{ARTICLE_BODY}}
+        </article>
+
+      </div>
+
+      <div class="article-cta">
+        <div>
+          <div class="label">Masz pytanie?</div>
+          <h2>{{CTA_TITLE_HTML}}</h2>
+          <p>{{CTA_TEXT}}</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="/#contact">Sprawdź dostępność terminu</a>
+          <a class="btn btn-secondary" href="/aktualnosci/">Wróć do Aktualności</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="/assets/logo-main.png?v=20260331" alt="BAROWO">
+    <div class="footer-copy">{{FOOTER_COPY}}</div>
+    <div class="footer-links"><a href="/oferta/mobilny-bar-na-wesele/">Mobilny bar na wesele</a><a href="/oferta/mobilny-bar-na-event-firmowy/">Mobilny bar na event firmowy</a><a href="/oferta/mobilny-bar-trojmiasto/">Mobilny bar Trójmiasto</a><a href="/oferta/fontanna-czekoladowa/">Fontanna czekoladowa</a><a href="/planer-baru-weselnego/">Planer Baru Weselnego</a><a href="/cennik/">Cennik</a><a href="/#contact">Kontakt</a><a href="/aktualnosci/">Aktualności</a><a href="/polityka-prywatnosci/">Polityka prywatności</a></div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+      const hamburger = document.getElementById('hamburger');
+      hamburger.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', hamburger.classList.contains('open') ? 'true' : 'false');
+      document.body.classList.toggle('menu-open');
+    }
+  </script>
+</body>
+
+</html>

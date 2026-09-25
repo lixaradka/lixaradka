@@ -1,0 +1,116 @@
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://barowo.com
+display_url: https://barowo.com
+logo_url: https://barowo.com/assets/logo-main.png?v=20260331
+publish_mode: simple
+
+media_folder: "assets/articles/uploads"
+public_folder: "/assets/articles/uploads"
+
+collections:
+  - name: "articles"
+    label: "Aktualności"
+    label_singular: "Artykuł"
+    folder: "content/articles"
+    create: true
+    delete: false
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "title_plain"
+    summary: "{{title_plain}}"
+    editor:
+      preview: false
+    sortable_fields:
+      - published_at
+      - title_plain
+    view_filters:
+      - label: "Opublikowane"
+        field: published
+        pattern: true
+      - label: "Robocze"
+        field: published
+        pattern: false
+    fields:
+      - label: "Opublikowany"
+        name: "published"
+        widget: "boolean"
+        default: true
+      - label: "Slug URL"
+        name: "slug"
+        widget: "string"
+        hint: "Np. mobilny-bar-na-wesele-gdynia"
+      - label: "Data publikacji"
+        name: "published_at"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: false
+      - label: "Tytuł SEO / plain"
+        name: "title_plain"
+        widget: "string"
+      - label: "Tytuł w hero (HTML)"
+        name: "title_html"
+        widget: "text"
+        hint: "Możesz używać <br> i <span class=\"red\">...</span>."
+      - label: "Meta description"
+        name: "description"
+        widget: "text"
+      - label: "Lead pod H1"
+        name: "intro"
+        widget: "text"
+      - label: "Czas czytania"
+        name: "read_time"
+        widget: "string"
+        default: "ok. 6 minut"
+      - label: "Kategoria"
+        name: "category"
+        widget: "string"
+      - label: "Tag"
+        name: "tag"
+        widget: "string"
+      - label: "Główne zdjęcie"
+        name: "cover_image"
+        widget: "image"
+      - label: "Alt głównego zdjęcia"
+        name: "cover_alt"
+        widget: "string"
+      - label: "3 krótkie wnioski na początku"
+        name: "summary"
+        widget: "list"
+        summary: "{{fields.item}}"
+        field:
+          label: "Punkt"
+          name: "item"
+          widget: "string"
+      - label: "Treść artykułu"
+        name: "body"
+        widget: "markdown"
+        hint: "Najwygodniej pisać tu w markdown. Jeśli chcesz zachować dokładny układ, możesz też wkleić gotowy HTML."
+      - label: "CTA pod artykułem (HTML)"
+        name: "cta_title_html"
+        widget: "text"
+        required: false
+      - label: "Opis CTA"
+        name: "cta_text"
+        widget: "text"
+      - label: "Zdjęcie do karty na liście"
+        name: "card_image"
+        widget: "image"
+      - label: "Alt zdjęcia karty"
+        name: "card_alt"
+        widget: "string"
+      - label: "Tytuł karty (HTML)"
+        name: "card_title_html"
+        widget: "text"
+      - label: "Krótki opis karty"
+        name: "card_excerpt"
+        widget: "text"
+      - label: "Tekst stopki artykułu"
+        name: "footer_copy"
+        widget: "text"
+        required: false

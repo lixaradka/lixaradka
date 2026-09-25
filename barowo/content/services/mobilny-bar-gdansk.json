@@ -1,0 +1,49 @@
+{
+  "slug": "mobilny-bar-gdansk",
+  "published": true,
+  "priority": 7,
+  "updated_at": "2026-04-25",
+  "title_plain": "Mobilny bar Gdańsk",
+  "title_html": "MOBILNY BAR<br><span class=\"red\">GDAŃSK</span>",
+  "description": "Mobilny bar w Gdańsku na urodziny, wesele, garden party i event firmowy. Koktajle, barmani i pełny setup BAROWO.",
+  "eyebrow": "Lokalnie · Gdańsk",
+  "intro": "Gdańsk to jeden z głównych kierunków realizacji BAROWO. Obsługujemy zarówno większe eventy, jak i prywatne imprezy, gdzie bar ma dodać energii i efektu premium.",
+  "direct_answer": "Mobilny bar w Gdańsku warto zaplanować wtedy, gdy chcesz mieć jeden zespół odpowiedzialny za bar, koktajle, tempo obsługi i estetykę miejsca zamiast samodzielnej organizacji alkoholu i dodatków.",
+  "service_type": "Mobilny bar Gdańsk",
+  "areas": ["Gdańsk", "Wrzeszcz", "Oliwa", "Śródmieście", "Trójmiasto"],
+  "image": "/assets/photo3-opt.jpg",
+  "image_alt": "Koktajle i mobilny bar BAROWO w Gdańsku",
+  "highlights": ["Obsługa w Gdańsku i okolicach", "Urodziny, wesela i eventy firmowe", "Menu alkoholowe i bezalkoholowe", "Pełny setup i szybka wycena"],
+  "sections": [
+    {
+      "title": "Jakie wydarzenia obsługujemy w Gdańsku?",
+      "body": "Najczęściej są to urodziny, 18-stki, wesela, eventy firmowe, imprezy plenerowe i garden party. Każdy format wymaga innej organizacji, dlatego zaczynamy od krótkiego rozpoznania potrzeb."
+    },
+    {
+      "title": "Co wpływa na cenę?",
+      "body": "Cena zależy od liczby gości, czasu pracy, menu, miejsca, logistyki i zakresu pakietu. Wycena powinna uwzględniać cały efekt, nie tylko samą obecność barmana.",
+      "bullets": ["liczba gości", "czas obsługi", "zakres menu", "warunki miejsca"]
+    },
+    {
+      "title": "Jak szybko można ustalić szczegóły?",
+      "body": "Najczęściej wystarczy krótka wiadomość z datą, lokalizacją i liczbą gości. Potem doprecyzowujemy pakiet i dostępność terminu."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy dojeżdżacie do dzielnic poza centrum Gdańska?",
+      "answer": "Tak, obsługujemy różne lokalizacje w Gdańsku i okolicach. Logistykę uwzględniamy w wycenie."
+    },
+    {
+      "question": "Czy bar może działać w plenerze?",
+      "answer": "Tak, jeśli warunki miejsca pozwalają na ustawienie baru i bezpieczną obsługę. Ustalamy to przed rezerwacją."
+    },
+    {
+      "question": "Czy pomagacie dobrać pakiet?",
+      "answer": "Tak. Po otrzymaniu podstawowych informacji doradzamy, czy wystarczy mniejszy pakiet, czy lepiej wybrać szerszą obsługę."
+    }
+  ],
+  "related_articles": ["drink-bar-na-urodziny-gdansk", "garden-party-z-barem-mobilnym"],
+  "card_title_html": "Mobilny bar <span class=\"red\">Gdańsk</span>",
+  "card_excerpt": "Bar i obsługa koktajlowa na urodziny, wesele, firmę i plener w Gdańsku."
+}

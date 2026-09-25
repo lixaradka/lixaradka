@@ -1,0 +1,49 @@
+{
+  "slug": "mobilny-bar-sopot",
+  "published": true,
+  "priority": 8,
+  "updated_at": "2026-04-25",
+  "title_plain": "Mobilny bar Sopot",
+  "title_html": "MOBILNY BAR<br><span class=\"red\">SOPOT</span>",
+  "description": "Mobilny bar w Sopocie na event, wesele, urodziny i prywatną imprezę. Profesjonalni barmani, koktajle i elegancki setup BAROWO.",
+  "eyebrow": "Lokalnie · Sopot",
+  "intro": "W Sopocie bar często musi pasować do bardziej eleganckiego, miejskiego lub nadmorskiego klimatu wydarzenia. BAROWO dowozi gotowy setup i obsługę, która wygląda profesjonalnie od pierwszego kontaktu.",
+  "direct_answer": "Mobilny bar w Sopocie sprawdzi się, jeśli chcesz dodać wydarzeniu efekt premium, uporządkować obsługę alkoholu i dać gościom estetyczny punkt koktajlowy bez organizacyjnego chaosu.",
+  "service_type": "Mobilny bar Sopot",
+  "areas": ["Sopot", "Trójmiasto", "Gdynia", "Gdańsk", "Pomorskie"],
+  "image": "/assets/photo4-opt.jpg",
+  "image_alt": "Realizacja mobilnego baru BAROWO w Sopocie",
+  "highlights": ["Eventy i przyjęcia w Sopocie", "Elegancki setup baru", "Koktajle i mocktaile", "Obsługa dopasowana do miejsca"],
+  "sections": [
+    {
+      "title": "Na jakie wydarzenia w Sopocie pasuje mobilny bar?",
+      "body": "Mobilny bar dobrze działa na eventach firmowych, weselach, urodzinach, bankietach i imprezach w lokalach lub plenerze. W Sopocie szczególnie ważny jest wygląd setupu i kultura obsługi."
+    },
+    {
+      "title": "Jak dopasowujemy bar do miejsca?",
+      "body": "Przed realizacją ustalamy charakter lokalu, dostęp do miejsca, godziny montażu, liczbę gości i oczekiwany styl. Dzięki temu bar nie jest przypadkowym dodatkiem, tylko częścią wydarzenia.",
+      "bullets": ["setup pasujący do przestrzeni", "menu pod charakter imprezy", "sprawny ruch gości przy barze", "jasny zakres obsługi"]
+    },
+    {
+      "title": "Co z wydarzeniami firmowymi?",
+      "body": "Sopot często wybierany jest na integracje i wydarzenia biznesowe. W takich realizacjach liczy się przewidywalność, estetyka i obsługa, która nie wymaga ciągłej kontroli organizatora."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy obsługujecie eventy firmowe w Sopocie?",
+      "answer": "Tak, obsługujemy eventy firmowe, integracje, bankiety i prywatne wydarzenia w Sopocie."
+    },
+    {
+      "question": "Czy bar można dopasować do eleganckiego wydarzenia?",
+      "answer": "Tak. Możemy dobrać menu, dodatki i styl serwisu pod bardziej premium charakter wydarzenia."
+    },
+    {
+      "question": "Jak zapytać o termin?",
+      "answer": "Wyślij datę, miejsce w Sopocie, liczbę gości i typ wydarzenia. Wrócimy z informacją o dostępności i propozycją pakietu."
+    }
+  ],
+  "related_articles": ["mobilny-bar-na-event-firmowy", "ile-kosztuje-mobilny-bar-trojmiasto"],
+  "card_title_html": "Mobilny bar <span class=\"red\">Sopot</span>",
+  "card_excerpt": "Elegancki bar na event, wesele, urodziny albo firmowe spotkanie w Sopocie."
+}

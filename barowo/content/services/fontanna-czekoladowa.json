@@ -1,0 +1,180 @@
+{
+  "slug": "fontanna-czekoladowa",
+  "published": true,
+  "priority": 4,
+  "updated_at": "2026-04-26",
+  "title_plain": "Fontanna czekoladowa na wesele i event w Trójmieście",
+  "title_html": "FONTANNA CZEKOLADOWA<br><span class=\"red\">NA WESELE I EVENT W TRÓJMIEŚCIE</span>",
+  "description": "Fontanna czekoladowa z eleganckim stołem, dodatkami i przygotowaniem stanowiska w Gdańsku, Gdyni, Sopocie i całym Trójmieście.",
+  "meta_title": "Fontanna Czekoladowa Trójmiasto | Na Wesele, Urodziny i Event — BAROWO",
+  "meta_description": "Fontanna czekoladowa z eleganckim stołem, dodatkami i obsługą w Gdańsku, Gdyni, Sopocie i Trójmieście. Jako dodatek do baru lub osobna atrakcja na event.",
+  "og_title": "Fontanna Czekoladowa Trójmiasto — BAROWO",
+  "og_description": "Słodka strefa z fontanną czekoladową jako dodatek do mobilnego baru albo osobna atrakcja na wesele, urodziny i event.",
+  "eyebrow": "Dodatki · Słodka strefa",
+  "intro": "Słodka atrakcja z eleganckim stołem, dodatkami, talerzykami i pełnym przygotowaniem - jako dodatek do mobilnego baru albo osobna usługa na Twoje wydarzenie.",
+  "direct_answer": "To nie jest sam wynajem urządzenia. BAROWO przygotowuje uporządkowaną słodką strefę z fontanną czekoladową, dodatkami i estetyką, która ma dobrze wyglądać na sali i działać wygodnie dla gości.",
+  "service_type": "Fontanna czekoladowa / słodka strefa na event",
+  "offer_note": "Wycena fontanny czekoladowej zależy od liczby gości, miejsca wydarzenia, dodatków i tego, czy jest dodatkiem do baru, czy osobną usługą.",
+  "areas": ["Gdynia", "Gdańsk", "Sopot", "Trójmiasto", "Pomorskie"],
+  "image": "/assets/chocolate-fountain-opt.jpg",
+  "image_alt": "Fontanna czekoladowa BAROWO przygotowana dla gości na evencie",
+  "highlights": [
+    "Fontanna czekoladowa jako dodatek do baru albo osobna usługa",
+    "Elegancki stół, dodatki i przygotowanie stanowiska",
+    "Wesele, poprawiny, urodziny, komunia i event firmowy",
+    "Wycena indywidualna zależna od liczby gości i zakresu strefy"
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "label": "Dwa warianty usługi",
+      "title": "Jak może działać fontanna czekoladowa?",
+      "cards": [
+        {
+          "title": "Fontanna jako dodatek do baru",
+          "text": "Dobry wybór, jeśli chcesz połączyć drink bar ze słodką atrakcją dla gości. Bar obsługuje koktajle, a obok powstaje elegancka słodka strefa z fontanną czekoladową.",
+          "button_text": "Dodaj fontannę do pakietu baru",
+          "button_href": "/?service=mobilny-bar-plus-fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=addon_to_bar#contact"
+        },
+        {
+          "title": "Fontanna czekoladowa bez baru",
+          "text": "Możemy przyjechać również bez mobilnego baru - tylko z fontanną czekoladową, eleganckim stołem, talerzykami, podstawkami i dodatkami. To dobra opcja na urodziny, poprawiny, komunie, garden party, event firmowy albo mniejsze przyjęcie.",
+          "button_text": "Zapytaj o fontannę bez baru",
+          "button_href": "/?service=fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=solo_service#contact"
+        }
+      ]
+    },
+    {
+      "title": "Co zawiera słodka strefa BAROWO?",
+      "body": "To nie jest sam wynajem urządzenia. Przyjeżdżamy z gotową koncepcją słodkiej strefy, która ma wyglądać dobrze na evencie i być wygodna dla gości.",
+      "bullets": [
+        "fontanna czekoladowa",
+        "elegancki stół lub przygotowana strefa",
+        "talerzyki, patyczki i serwetki",
+        "podstawki i estetyczna ekspozycja dodatków",
+        "dodatki do maczania",
+        "przygotowanie stanowiska",
+        "uporządkowany wygląd strefy podczas eventu",
+        "opcjonalna obsługa lub nadzór nad strefą"
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "Scenariusze",
+      "title": "Na jakie wydarzenia sprawdzi się fontanna czekoladowa?",
+      "intro": "Fontanna czekoladowa działa najlepiej tam, gdzie goście mają swobodnie podchodzić do słodkiej strefy w trakcie wydarzenia. To atrakcja dla dzieci i dorosłych, ale też element, który dobrze wygląda na zdjęciach.",
+      "cards": [
+        {"title": "Wesele"},
+        {"title": "Poprawiny"},
+        {"title": "Urodziny"},
+        {"title": "Komunia"},
+        {"title": "Garden party"},
+        {"title": "Event firmowy"},
+        {"title": "Otwarcie lokalu"},
+        {"title": "Przyjęcie rodzinne"}
+      ]
+    },
+    {
+      "title": "Dlaczego warto połączyć fontannę z mobilnym barem?",
+      "body": "Drink bar tworzy główny punkt obsługi koktajli, a fontanna czekoladowa dodaje obok niego słodką strefę, do której goście mogą wracać przez cały event. To prosty sposób, żeby zwiększyć efekt wizualny i dać gościom coś więcej niż standardowy bar.",
+      "bullets": [
+        "większy efekt wizualny na sali",
+        "atrakcja dla dzieci i dorosłych",
+        "dobre uzupełnienie drink baru",
+        "dodatkowa strefa dla gości",
+        "fajnie wygląda na zdjęciach i stories",
+        "pasuje do wesel, urodzin i eventów firmowych"
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "Cena / wycena",
+      "title": "Ile kosztuje fontanna czekoladowa?",
+      "intro": "Cena zależy od liczby gości, lokalizacji, zakresu dodatków, czasu obsługi i tego, czy fontanna jest dodatkiem do mobilnego baru, czy osobną usługą.",
+      "cards": [
+        {
+          "eyebrow": "Jako dodatek do baru",
+          "title": "Fontanna przy pakiecie BAROWO",
+          "text": "Najczęściej wyceniamy ją razem z pakietem mobilnego baru.",
+          "button_text": "Dodaj fontannę do oferty",
+          "button_href": "/?service=mobilny-bar-plus-fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=addon_to_bar#contact"
+        },
+        {
+          "eyebrow": "Jako osobna usługa",
+          "title": "Słodka strefa bez baru",
+          "text": "Wycena zależy od liczby gości, miejsca eventu i zakresu przygotowanej słodkiej strefy.",
+          "button_text": "Sprawdź dostępność terminu",
+          "button_href": "/?service=fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=solo_service#contact"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "Planer weselny",
+      "title": "Planujesz wesele?",
+      "cards": [
+        {
+          "title": "Sprawdź w plannerze, czy fontanna pasuje do Twojej oferty",
+          "text": "Jeśli układasz już mobilny bar, liczbę barmanów i menu, planner BAROWO podpowie też, czy fontanna czekoladowa ma sens przy Twojej liczbie gości i stylu wesela.",
+          "button_text": "Przejdź do planera",
+          "button_href": "/planer-baru-weselnego/"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy fontannę czekoladową można zamówić bez mobilnego baru?",
+      "answer": "Tak. Fontanna czekoladowa może być osobną usługą - przyjeżdżamy wtedy z fontanną, stołem, talerzykami, podstawkami i dodatkami."
+    },
+    {
+      "question": "Czy fontanna czekoladowa może być dodatkiem do baru?",
+      "answer": "Tak. To jedna z opcji, którą można dodać do mobilnego baru na wesele, urodziny albo event firmowy."
+    },
+    {
+      "question": "Czy fontanna czekoladowa sprawdzi się na weselu?",
+      "answer": "Tak, szczególnie jako dodatkowa słodka strefa dla gości. Dobrze działa przy weselach, poprawinach, urodzinach i eventach rodzinnych."
+    },
+    {
+      "question": "Od czego zależy cena?",
+      "answer": "Od liczby gości, lokalizacji, zakresu dodatków, czasu obsługi i tego, czy fontanna jest dodatkiem do baru, czy osobną usługą."
+    },
+    {
+      "question": "Czy zapewniacie talerzyki i dodatki?",
+      "answer": "Tak, usługa może obejmować talerzyki, patyczki, serwetki, podstawki i przygotowanie stołu. Szczegóły ustalamy przy wycenie."
+    },
+    {
+      "question": "Czy fontanna wymaga specjalnego miejsca na sali?",
+      "answer": "Potrzebujemy stabilnego miejsca na stół oraz dostępu do prądu. Szczegóły ustalamy przed wydarzeniem."
+    }
+  ],
+  "related_links": [
+    {"href": "/cennik/", "label": "Cennik mobilnego baru"},
+    {"href": "/oferta/mobilny-bar-na-wesele/", "label": "Mobilny bar na wesele"},
+    {"href": "/planer-baru-weselnego/", "label": "Planer Baru Weselnego"},
+    {"href": "/?service=fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=solo_service#contact", "label": "Zapytaj o fontannę"}
+  ],
+  "related_articles": ["najlepsze-drinki-na-wesele", "garden-party-z-barem-mobilnym"],
+  "primary_cta_text": "Zapytaj o fontannę",
+  "primary_cta_href": "/?service=fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=solo_service#contact",
+  "secondary_cta_text": "Dodaj do pakietu baru",
+  "secondary_cta_href": "/?service=mobilny-bar-plus-fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=addon_to_bar#contact",
+  "mid_cta_label": "Słodka strefa",
+  "mid_cta_title_html": "ZAPYTAJ O<br><span class=\"red\">FONTANNĘ CZEKOLADOWĄ</span>",
+  "mid_cta_text": "Wyślij datę, miejsce i liczbę gości. Szybko powiemy, czy lepiej potraktować fontannę jako dodatek do baru, czy jako osobną strefę na event.",
+  "mid_cta_button_text": "Zapytaj o słodką strefę",
+  "mid_cta_button_href": "/?service=fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=not_sure#contact",
+  "bottom_cta_label": "Rezerwacja",
+  "bottom_cta_title_html": "DODAJ<br><span class=\"red\">SŁODKĄ STREFĘ DO EVENTU</span>",
+  "bottom_cta_text": "Jeśli chcesz połączyć drink bar ze słodką atrakcją albo zamówić samą fontannę czekoladową, napisz do BAROWO. Dopasujemy zakres tak, żeby całość była estetyczna i wygodna dla gości.",
+  "bottom_cta_button_text": "Sprawdź dostępność terminu",
+  "bottom_cta_button_href": "/?service=fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=not_sure#contact",
+  "sidebar_title_html": "ZAPYTAJ O<br><span class=\"red\">FONTANNĘ</span>",
+  "sidebar_text": "Podaj datę, miasto i liczbę gości. Wrócimy z informacją, czy lepiej ustawić fontannę jako dodatek do baru, czy jako osobną strefę.",
+  "sidebar_button_text": "Sprawdź dostępność terminu",
+  "sidebar_button_href": "/?service=fontanna-czekoladowa&chocolateFountainInterest=true&chocolateFountainMode=not_sure#contact",
+  "card_title_html": "Fontanna <span class=\"red\">czekoladowa</span>",
+  "card_excerpt": "Słodka strefa z eleganckim stołem, dodatkami i przygotowaniem stanowiska na wesele, poprawiny lub event.",
+  "chocolateFountainAddonPrice": "",
+  "chocolateFountainSoloPrice": ""
+}

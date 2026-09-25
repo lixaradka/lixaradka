@@ -1,0 +1,16 @@
+[build]
+  command = "python3 scripts/build_articles.py"
+  publish = "."
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+[[redirects]]
+  from = "/planer-weselny/"
+  to = "/planer-baru-weselnego/"
+  status = 301

@@ -1,0 +1,49 @@
+{
+  "slug": "mobilny-bar-gdynia",
+  "published": true,
+  "priority": 6,
+  "updated_at": "2026-04-25",
+  "title_plain": "Mobilny bar Gdynia",
+  "title_html": "MOBILNY BAR<br><span class=\"red\">GDYNIA</span>",
+  "description": "Mobilny bar w Gdyni na wesele, urodziny, poprawiny i event firmowy. BAROWO dowozi bar, barmanów, szkło, koktajle i pełny serwis.",
+  "eyebrow": "Lokalnie · Gdynia",
+  "intro": "BAROWO ma bazę w Gdyni, dlatego realizacje w mieście są dla nas naturalnym kierunkiem. Obsługujemy przyjęcia prywatne, wesela, eventy firmowe i imprezy plenerowe.",
+  "direct_answer": "Mobilny bar w Gdyni najlepiej rezerwować, gdy znasz datę, miejsce i orientacyjną liczbę gości. Na tej podstawie dobieramy pakiet, menu i logistykę tak, żeby bar działał płynnie od początku imprezy.",
+  "service_type": "Mobilny bar Gdynia",
+  "areas": ["Gdynia", "Orłowo", "Redłowo", "Śródmieście", "Pomorskie"],
+  "image": "/assets/photo2-opt.jpg",
+  "image_alt": "Serwis mobilnego baru BAROWO w Gdyni",
+  "highlights": ["Baza BAROWO w Gdyni", "Szybka lokalna logistyka", "Wesela, urodziny i eventy", "Pakiety dopasowane do liczby gości"],
+  "sections": [
+    {
+      "title": "Na jakie imprezy w Gdyni warto zamówić bar?",
+      "body": "Mobilny bar sprawdza się na weselach, 18-stkach, urodzinach, eventach firmowych, garden party i poprawinach. W Gdyni ważne bywa dobre zaplanowanie dojazdu, montażu i ustawienia baru względem gości."
+    },
+    {
+      "title": "Co trzeba podać w zapytaniu?",
+      "body": "Najbardziej pomaga data, miejsce, liczba gości i typ wydarzenia. Jeśli nie wiesz, który pakiet wybrać, napisz to wprost - doradzimy najrozsądniejszą opcję.",
+      "bullets": ["data wydarzenia", "lokalizacja w Gdyni lub okolicy", "liczba gości", "charakter imprezy"]
+    },
+    {
+      "title": "Czy obsługujemy okolice Gdyni?",
+      "body": "Tak. Poza samą Gdynią obsługujemy również okoliczne miejscowości i pozostałe części Trójmiasta."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy BAROWO ma bazę w Gdyni?",
+      "answer": "Tak, kontakt i lokalizacja BAROWO są związane z Gdynią, co ułatwia realizacje w mieście i okolicach."
+    },
+    {
+      "question": "Czy bar nadaje się do mieszkania lub domu?",
+      "answer": "Tak, jeśli jest wystarczająco dużo miejsca na bezpieczny setup i pracę barmana. Szczegóły ustalamy przed wyceną."
+    },
+    {
+      "question": "Czy można zamówić tylko obsługę barmańską?",
+      "answer": "Zakres ustalamy indywidualnie, ale największy sens ma pełny pakiet, bo wtedy odpowiadamy za cały efekt i logistykę."
+    }
+  ],
+  "related_articles": ["ile-kosztuje-mobilny-bar-trojmiasto", "mobilny-bar-na-poprawiny"],
+  "card_title_html": "Mobilny bar <span class=\"red\">Gdynia</span>",
+  "card_excerpt": "Lokalna obsługa baru w Gdyni: wesela, urodziny, eventy i plener."
+}
