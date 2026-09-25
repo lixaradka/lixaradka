@@ -1,63 +1,45 @@
 /* ==========================================================================
    BAROWO — design system
    Единый стиль для всех страниц. Палитра: navy #06061a / #0a0a28 / #0d1030,
-   red #e8000d, white. Шрифты: Fraunces (display) + Onest (text/UI).
+   red #e8000d, white. Шрифты: Bebas Neue (заголовки) + Manrope (текст/UI).
    ========================================================================== */
 
 /* ---------- Fonts (self-hosted) ---------- */
 
-/* fraunces italic 400 latin-ext */
+/* bebas-neue latin-ext */
 @font-face {
-  font-family: 'Fraunces';
-  font-style: italic;
+  font-family: 'Bebas Neue';
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/assets/fonts/fraunces-italic-400-latin-ext.woff2) format('woff2');
+  src: url(/assets/fonts/bebas-neue-latin-ext.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* fraunces italic 400 latin */
+/* bebas-neue latin */
 @font-face {
-  font-family: 'Fraunces';
-  font-style: italic;
+  font-family: 'Bebas Neue';
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/assets/fonts/fraunces-italic-400-latin.woff2) format('woff2');
+  src: url(/assets/fonts/bebas-neue-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* fraunces normal 400 latin-ext */
+/* manrope latin-ext */
 @font-face {
-  font-family: 'Fraunces';
+  font-family: 'Manrope';
   font-style: normal;
-  font-weight: 400 500;
+  font-weight: 400 800;
   font-display: swap;
-  src: url(/assets/fonts/fraunces-normal-400-500-latin-ext.woff2) format('woff2');
+  src: url(/assets/fonts/manrope-latin-ext.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* fraunces normal 400 latin */
+/* manrope latin */
 @font-face {
-  font-family: 'Fraunces';
+  font-family: 'Manrope';
   font-style: normal;
-  font-weight: 400 500;
+  font-weight: 400 800;
   font-display: swap;
-  src: url(/assets/fonts/fraunces-normal-400-500-latin.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* onest normal 400-700 latin-ext */
-@font-face {
-  font-family: 'Onest';
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url(/assets/fonts/onest-normal-400-700-latin-ext.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* onest normal 400-700 latin */
-@font-face {
-  font-family: 'Onest';
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url(/assets/fonts/onest-normal-400-700-latin.woff2) format('woff2');
+  src: url(/assets/fonts/manrope-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -79,8 +61,8 @@
   --red-soft: rgba(232, 0, 13, 0.12);
   --red-line: rgba(232, 0, 13, 0.45);
 
-  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
-  --font-body: "Onest", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --wrap: 1240px;
   --gutter: clamp(16px, 4vw, 40px);
@@ -138,30 +120,36 @@ strong, b { font-weight: 600; color: var(--white); }
 /* ---------- Typography ---------- */
 
 h1, h2, h3, h4 {
-  font-family: var(--font-display);
-  font-weight: 500;
   color: var(--white);
-  line-height: 1.04;
-  letter-spacing: -0.005em;
   text-wrap: balance;
 }
 
-h1 { font-size: clamp(2.7rem, 6.4vw, 5.6rem); }
-h2 { font-size: clamp(2.1rem, 4.4vw, 3.8rem); }
-h3 { font-size: clamp(1.45rem, 2.4vw, 2rem); line-height: 1.1; }
-h4 { font-size: 1.2rem; }
+h1, h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+}
+
+h3, h4 {
+  font-family: var(--font-body);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: clamp(3rem, 7vw, 6.2rem); }
+h2 { font-size: clamp(2.4rem, 5vw, 4.2rem); }
+h3 { font-size: clamp(1.2rem, 1.8vw, 1.45rem); }
+h4 { font-size: 1.1rem; }
 
 .red {
   color: var(--red);
-  font-style: italic;
   font-weight: 400;
-  letter-spacing: 0.01em;
-  word-spacing: 0.06em;
 }
 
 .outline {
   color: transparent;
-  font-style: italic;
   font-weight: 400;
   -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.85);
   letter-spacing: 0.02em;
@@ -409,13 +397,13 @@ body > nav {
     padding: 16px 0;
     color: var(--white);
     font-family: var(--font-display);
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     font-weight: 400;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.02em;
   }
 
   .nav-links a:not(.btn)::after { display: none; }
-  .nav-links a.is-active { color: var(--red); font-style: italic; }
+  .nav-links a.is-active { color: var(--red); }
   .nav-cta { width: 100%; min-height: 54px; margin: 0; font-size: 1rem; }
 }
 
@@ -498,7 +486,7 @@ body > nav {
 
 #hero h1 {
   max-width: 11ch;
-  font-size: clamp(3rem, 7.4vw, 6.6rem);
+  font-size: clamp(3.6rem, 8vw, 7rem);
   line-height: 1;
   letter-spacing: -0.01em;
 }
@@ -570,9 +558,8 @@ body > nav {
 
 .stat-n {
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 4.4vw, 3.6rem);
+  font-size: clamp(2.8rem, 5.4vw, 4.4rem);
   font-weight: 400;
-  font-style: italic;
   line-height: 1;
   color: var(--white);
 }
@@ -610,23 +597,22 @@ body > nav {
 
 .step-num {
   font-family: var(--font-display);
-  font-size: 1rem;
-  font-style: italic;
+  font-size: 2.6rem;
+  line-height: 1;
   color: var(--red);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .step-icon,
 .step-arrow { display: none; }
 
 .step-title {
-  font-family: var(--font-display);
-  font-size: clamp(1.4rem, 2vw, 1.7rem);
-  font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: -0.01em;
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.3;
   color: var(--white);
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .step-desc { color: var(--dim); font-size: 0.98rem; }
@@ -698,8 +684,8 @@ body > nav {
 .pkg-name {
   margin-top: 28px;
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 3vw, 2.8rem);
-  font-weight: 500;
+  font-size: clamp(2.6rem, 3.6vw, 3.2rem);
+  font-weight: 400;
   line-height: 1;
   letter-spacing: -0.005em;
   color: var(--white);
@@ -784,8 +770,11 @@ body > nav {
 
 .planner-promo h3,
 .addon-spotlight h3 {
-  font-size: clamp(2rem, 3.6vw, 3rem);
-  line-height: 1;
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-size: clamp(2.4rem, 4.4vw, 3.8rem);
+  line-height: 0.95;
   margin-bottom: 20px;
 }
 
@@ -833,7 +822,6 @@ body > nav {
   margin-bottom: 16px;
   font-family: var(--font-display);
   font-size: clamp(1.6rem, 2.6vw, 2.2rem);
-  font-style: italic;
   line-height: 1.1;
   color: var(--white);
 }
@@ -897,9 +885,9 @@ body > nav {
   bottom: 22px;
   z-index: 2;
   color: var(--white);
-  font-family: var(--font-display);
-  font-size: clamp(1.1rem, 1.6vw, 1.35rem);
-  line-height: 1.3;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .media-nav {
@@ -982,11 +970,11 @@ body > nav {
 .proof-quote {
   order: 1;
   position: relative;
-  padding-top: 36px;
-  font-family: var(--font-display);
-  font-size: clamp(1.25rem, 1.8vw, 1.45rem);
-  font-style: italic;
-  line-height: 1.32;
+  padding-top: 40px;
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
   color: var(--white);
 }
 
@@ -1035,8 +1023,8 @@ body > nav {
 
 .team-name {
   font-family: var(--font-display);
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 2.6rem;
+  font-weight: 400;
   line-height: 1;
   color: var(--white);
 }
@@ -1174,9 +1162,9 @@ details > :not(summary) { padding-bottom: 22px; color: var(--dim); }
 
 .final-push-title {
   margin-bottom: 6px;
-  font-family: var(--font-display);
-  font-size: 1.35rem;
-  font-style: italic;
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 800;
   color: var(--white);
 }
 
@@ -1332,7 +1320,7 @@ details > :not(summary) { padding-bottom: 22px; color: var(--dim); }
 .contact-phone {
   display: block;
   font-family: var(--font-display);
-  font-size: clamp(1.6rem, 2.4vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2.6rem);
   font-weight: 400;
   line-height: 1.3;
   color: var(--white);
@@ -1531,8 +1519,8 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
   max-width: 340px;
   margin-bottom: 14px;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 6vw, 2.6rem);
-  font-weight: 500;
+  font-size: clamp(2.4rem, 8vw, 3.2rem);
+  font-weight: 400;
   line-height: 1;
   letter-spacing: -0.005em;
   color: var(--white);
@@ -1592,7 +1580,7 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 }
 
 .shell > .hero h1,
-.page-shell h1 { max-width: 15ch; }
+.page-shell h1 { max-width: 18ch; }
 
 .lead,
 .hero-intro,
@@ -1691,7 +1679,7 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
   background: var(--navy2);
 }
 
-.side-panel h2 { margin-bottom: 14px; font-size: 1.9rem; }
+.side-panel h2 { margin-bottom: 14px; font-size: 2.3rem; }
 .side-panel > p { font-size: 0.95rem; }
 .side-panel > .btn { width: 100%; margin-top: 20px; white-space: normal; }
 .side-panel > p:last-child { color: var(--mute); }
@@ -1729,9 +1717,9 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 .compare-wrap h2,
 .service-faq h2,
 .content-stack > .faq-wrap h2 {
-  max-width: 20ch;
+  max-width: 26ch;
   margin-bottom: 24px;
-  font-size: clamp(1.9rem, 3.2vw, 2.8rem);
+  font-size: clamp(2.2rem, 3.8vw, 3.3rem);
 }
 
 .service-block > p,
@@ -1834,7 +1822,7 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 .cta-strip h2,
 .shell > .cta h2 {
   margin-bottom: 14px;
-  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-size: clamp(2.2rem, 3.6vw, 3.2rem);
 }
 
 .service-inline-cta p,
@@ -1872,9 +1860,8 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 .stat-card strong {
   display: block;
   margin-bottom: 8px;
-  font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.05rem;
+  font-weight: 800;
 }
 
 .stat-card p { font-size: 0.93rem; }
@@ -1965,7 +1952,7 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 }
 
 .service-card-copy h2,
-.post-card-copy h2 { font-size: clamp(1.45rem, 2vw, 1.75rem); line-height: 1.1; }
+.post-card-copy h2 { font-size: clamp(1.9rem, 2.4vw, 2.3rem); line-height: 0.95; }
 
 .post-card-copy .label { margin-bottom: 12px; }
 
@@ -2003,7 +1990,7 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
   gap: 20px;
 }
 
-.case-copy h2 { font-size: clamp(1.7rem, 2.6vw, 2.2rem); }
+.case-copy h2 { font-size: clamp(2.2rem, 3vw, 2.8rem); }
 .case-copy .label { margin-bottom: 0; }
 
 .facts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 8px; }
@@ -2047,8 +2034,8 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 
 .article-body h2 {
   margin: 56px 0 18px;
-  font-size: clamp(1.7rem, 3vw, 2.3rem);
-  line-height: 1.12;
+  font-size: clamp(2rem, 3.4vw, 2.7rem);
+  line-height: 1;
 }
 
 .article-body h3 { margin: 36px 0 12px; font-size: 1.4rem; }
@@ -2082,10 +2069,9 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
   margin: 32px 0;
   padding: 4px 0 4px 28px;
   border-left: 2px solid var(--red);
-  font-family: var(--font-display);
-  font-size: 1.45rem;
-  font-style: italic;
-  line-height: 1.4;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
   color: var(--white);
 }
 
@@ -2098,7 +2084,7 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 /* Policy */
 
 .policy-card { margin-top: 40px; }
-.policy-card h2 { margin: 48px 0 16px; font-size: clamp(1.5rem, 2.4vw, 2rem); }
+.policy-card h2 { margin: 48px 0 16px; font-size: clamp(1.9rem, 3vw, 2.5rem); }
 .policy-card h2:first-child { margin-top: 0; }
 .page-shell > .section:has(.policy-card) > .actions { margin-top: 48px; }
 
@@ -2175,12 +2161,13 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 .planner-result-kicker {
   margin-bottom: 12px;
   color: var(--red);
-  font-family: var(--font-display);
-  font-size: 1rem;
-  font-style: italic;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
-.planner-app h2 { max-width: 18ch; margin-bottom: 12px; font-size: clamp(1.9rem, 3.4vw, 2.8rem); }
+.planner-app h2 { max-width: 18ch; margin-bottom: 12px; font-size: clamp(2.3rem, 4vw, 3.3rem); }
 .planner-step-copy { margin-bottom: 28px; }
 
 .planner-fields,
@@ -2244,7 +2231,7 @@ body > footer img { width: 52px; height: 52px; object-fit: contain; }
 .planner-hidden { visibility: hidden; }
 
 .planner-sidebar { position: sticky; top: calc(var(--nav-h) + 24px); padding: 28px; }
-.planner-sidebar h2 { margin-bottom: 14px; font-size: 1.9rem; }
+.planner-sidebar h2 { margin-bottom: 14px; font-size: 2.3rem; }
 .planner-sidebar-list { display: grid; gap: 12px; margin-top: 20px; }
 
 .planner-sidebar-list li {
