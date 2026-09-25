@@ -25,75 +25,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=20260331">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260331">
   <link rel="manifest" href="/site.webmanifest?v=20260331">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800;900;900&display=swap" rel="stylesheet">
   <script src="/assets/consent-init.js?v=20260331"></script>
   <script>
     if (window.location.protocol === 'file:') {
       document.write('<script src="/assets/local-preview.js"><' + '/script>');
     }
   </script>
-  <style>
-    :root { --navy:#06061a; --navy2:#0a0a28; --red:#e8000d; --white:#ffffff; --dim:rgba(255,255,255,0.68); --line:rgba(255,255,255,0.08); --card:rgba(255,255,255,0.04); --shadow:0 24px 64px rgba(0,0,0,0.34); --radius:28px; }
-    * { box-sizing:border-box; margin:0; padding:0; }
-    html { scroll-behavior:smooth; }
-    body { min-height:100vh; background:radial-gradient(circle at 18% 10%, rgba(232,0,13,0.14), transparent 22%),radial-gradient(circle at 82% 24%, rgba(232,0,13,0.12), transparent 26%),linear-gradient(180deg, #07081f 0%, #050617 100%); color:var(--white); font-family:'Manrope', sans-serif; overflow-x:hidden; -webkit-font-smoothing:antialiased; }
-    body.menu-open { overflow:hidden; }
-    a { color:inherit; text-decoration:none; }
-    img { display:block; max-width:100%; }
-    nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:14px 48px; height:10vh; background:rgba(6,6,26,0.92); backdrop-filter:blur(12px); border-bottom:1px solid rgba(255,255,255,0.06); }
-    .nav-logo img { height:46px; width:auto; object-fit:contain; }
-    .nav-links { display:flex; gap:36px; list-style:none; align-items:center; }
-    .nav-links a { color:var(--dim); text-decoration:none; font-size:0.72rem; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; transition:color 0.2s; }
-    .nav-links a:hover, .nav-links a.is-active { color:var(--white); }
-    .nav-cta { background:var(--red)!important; color:var(--white)!important; padding:11px 28px; font-size:0.72rem!important; letter-spacing:2.5px!important; border-radius:999px; }
-    .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; z-index:101; }
-    .hamburger span { display:block; width:24px; height:2px; background:var(--white); transition:all 0.3s; }
-    .hamburger.open span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
-    .hamburger.open span:nth-child(2) { opacity:0; }
-    .hamburger.open span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
-    .page-shell { width:min(980px, calc(100% - 40px)); margin:0 auto; }
-    .section { padding:110px 0 0; }
-    .label { display:inline-flex; align-items:center; gap:14px; color:var(--red); font-size:0.76rem; letter-spacing:0.18em; text-transform:uppercase; font-weight:800; }
-    .label::before { content:""; width:40px; height:3px; background:var(--red); border-radius:999px; }
-    .breadcrumbs { color:rgba(255,255,255,0.56); font-size:0.84rem; margin-bottom:20px; }
-    .breadcrumbs a:hover { color:var(--white); }
-    h1,h2,h3 { font-family:'Bebas Neue', sans-serif; font-weight:400; line-height:1.02; letter-spacing:0.01em; }
-    h1 { font-size:clamp(3rem, 7vw, 5.4rem); margin-top:18px; max-width:900px; }
-    .red { color: var(--red); }
-    h2 { font-size:clamp(1.8rem, 3.8vw, 2.8rem); margin:38px 0 14px; }
-    .hero-intro { max-width:760px; margin-top:22px; color:var(--dim); font-size:1.02rem; line-height:1.8; }
-    .policy-card { margin-top:32px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:32px; }
-    .policy-card p, .policy-card li { color:rgba(255,255,255,0.82); font-size:1rem; line-height:1.86; }
-    .policy-card p + p, .policy-card ul { margin-top:14px; }
-    .policy-card ul { padding-left:22px; display:grid; gap:8px; }
-    .policy-card strong { color:var(--white); }
-    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:32px; }
-    .btn-red, .btn-ghost { display:inline-flex; align-items:center; justify-content:center; min-height:56px; padding:0 24px; border-radius:999px; font-size:0.84rem; letter-spacing:0.14em; text-transform:uppercase; font-weight:800; transition:transform 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
-    .btn-red { background:var(--red); color:var(--white); }
-    .btn-ghost { border:1px solid rgba(255,255,255,0.18); color:var(--white); background:rgba(255,255,255,0.02); }
-    .btn-red:hover, .btn-ghost:hover { transform:translateY(-2px); }
-    footer { width:min(980px, calc(100% - 40px)); margin:72px auto 24px; padding:22px 24px; border:1px solid rgba(255,255,255,0.08); background:rgba(255,255,255,0.03); border-radius:28px; text-align:center; }
-    footer img { height:42px; width:auto; margin:0 auto 12px; object-fit:contain; }
-    .footer-copy { color:rgba(255,255,255,0.66); font-size:0.8rem; line-height:1.7; }
-    .footer-links { display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-top:10px; }
-    .footer-links a { color:rgba(255,255,255,0.72); text-decoration:none; font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; }
-    .footer-links a:hover { color:var(--white); }
-    @media (max-width:980px) {
-      nav { padding:14px 20px; }
-      .nav-links { display:none; }
-      .nav-links.open { display:flex; flex-direction:column; position:fixed; top:78px; left:16px; right:16px; padding:20px; background:rgba(8,10,31,0.98); border:1px solid rgba(255,255,255,0.08); border-radius:22px; align-items:stretch; justify-content:flex-start; gap:12px; z-index:110; box-shadow:0 24px 60px rgba(0,0,0,0.45); }
-      .nav-links.open a { display:block; width:100%; text-align:center; font-size:1rem; padding:12px 14px; border-radius:14px; background:rgba(255,255,255,0.03); }
-      .hamburger { display:flex; }
-    }
-    @media (max-width:520px) {
-      .section { padding-top:96px; }
-      .page-shell { width:calc(100% - 20px); }
-      footer { width:calc(100% - 20px); margin:18px auto 18px; padding:20px 16px; }
-      .policy-card { padding:16px; }
-      .policy-card p, .policy-card li, .hero-intro { font-size:0.95rem; line-height:1.75; }
-      .btn-red, .btn-ghost { width:100%; }
-    }
-  </style>
+  <link rel="preload" href="/assets/fonts/fraunces-normal-400-500-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/barowo.css?v=20260925">
 </head>
 
 <body>
